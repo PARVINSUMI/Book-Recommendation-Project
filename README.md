@@ -47,12 +47,6 @@ This project implements a **Book Recommendation Engine** using Python. It demons
 - seaborn
 - Jupyter Notebook or JupyterLab
 
-## Evaluation
-
-- Cluster-Based Method: Use silhouette score to evaluate clustering quality.
-- Content-Based Method: Check recommendations for relevance based on book metadata.
-- Compare results to find which approach provides the most meaningful recommendations.
-
 
 ## Project Goals
 
@@ -61,18 +55,12 @@ This project implements a **Book Recommendation Engine** using Python. It demons
 - Build a functional prototype that generates personalized book recommendations.
 
 
-import pandas as pd
-df = pd.read_csv("books.csv")
-
-from recommender import recommend_similar_items
-recommendations = recommend_similar_items(item_index=10, df=df, n_recommendations=5)
-print(recommendations)
-
-from recommender import get_recommendations
-recommendations = get_recommendations('1984', df=df)
-print(recommendations)
-
 
 ## Link 
 
+Presentation: https://docs.google.com/presentation/d/1RMxgNFd2qK9CWooAWethIC8Xq6hQvcG8/edit?slide=id.p1#slide=id.p1
+
 ## Contact
+- **Sumaiya Parvin**
+- **📧 Email: parvin091023@gmail.com**
+- **🔗 LinkedIn: Sumaiya Parvin**
